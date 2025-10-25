@@ -16,6 +16,41 @@
 body, h1, h2, h3, h4, h5, h6, p, a, li, span, div, input, textarea, label, th, td, blockquote {
   color: #fff !important;
 }
+			/* ========== BANNER STYLES - ADDED ========== */
+#top-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #8B0000;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+#top-banner a {
+  color: #FFD700 !important;
+  text-decoration: underline;
+}
+
+/* Add padding to body to prevent content from hiding under fixed banner */
+body {
+  padding-top: 150px;      /* Increased to match banner height */
+}
+/* ========== END BANNER STYLES ========== */
+</style>
+</head>
+<body class="is-preload">
+
+<!-- ========== TOP BANNER - ADDED ========== -->
+<div id="top-banner">
+  <img src="images/Image.jpeg" alt="Banner Image" style="width: 100%; height: 100%; object-fit: cover;">
+</div>
+<!-- ========== END TOP BANNER ========== -->
 </style>
 	</head>
 	<body class="is-preload">
@@ -160,6 +195,7 @@ body, h1, h2, h3, h4, h5, h6, p, a, li, span, div, input, textarea, label, th, t
 	</body>
 
 </html>
+
 
 
 
