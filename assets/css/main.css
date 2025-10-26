@@ -3882,17 +3882,21 @@ input, select, textarea {
 
 	}
 @media (max-width: 600px) {
- p {
-    color: #000; /* Example: light teal */
+  body,
+  #wrapper,
+  section,
+  header,
+  div,
+  .content {
+    background-color: #800020 !important; /* Burgundy */
+    color: #fff !important; /* White text */
   }
- 
 
-  /* Change header color */
-  h1, h2, h3 {
-    color: #660000; /* Example: gold */
+  h1, h2, h3, h4, h5, h6, p, a, li, span, input, textarea, label, th, td, blockquote {
+    color: #fff !important; /* White text */
   }
-
- 
+}
 
 }
+
 
