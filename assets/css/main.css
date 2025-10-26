@@ -3882,7 +3882,9 @@ input, select, textarea {
 
 	}
 @media (max-width: 600px) {
- 
+ p {
+    color: #000; /* Example: light teal */
+  }
  
 
   /* Change header color */
@@ -3893,3 +3895,4 @@ input, select, textarea {
  
 
 }
+
